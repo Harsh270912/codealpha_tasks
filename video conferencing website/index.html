@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feature Demo</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans">
+    <div class="container mx-auto p-8">
+        <h1 class="text-3xl font-bold mb-6">Feature Demo Dashboard</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <button onclick="startFeature('Screen Sharing')" class="feature-btn">Start Screen Sharing</button>
+            <button onclick="startFeature('File Sharing')" class="feature-btn">Start File Sharing</button>
+            <button onclick="startFeature('Whiteboard')" class="feature-btn">Open Whiteboard</button>
+            <button onclick="startFeature('Video Chat')" class="feature-btn">Start Video Chat</button>
+            <button onclick="startFeature('Encrypted Session')" class="feature-btn">Start Encrypted Session</button>
+            <button onclick="startFeature('Authentication')" class="feature-btn">Login / Authenticate</button>
+            <button onclick="startFeature('Video Capture')" class="feature-btn">Start Video Capture</button>
+        </div>
+        <div id="output" class="mt-6 text-xl text-green-600 font-semibold"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
